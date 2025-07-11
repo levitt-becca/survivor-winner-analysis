@@ -1,0 +1,197 @@
+job_categories = {
+    "Education": [
+        "Teacher", "Ivy League Graduate", "Student",
+        "Teacher/Farmer", "Career Counselor", "Retired Teacher",
+        "Guidance Counselor", "Gym Teacher", "School Principal",
+        "Graduate Student",  "Ivy League Student", "College Administrator", "Elementary Teacher",
+        "Student/Athelete", "Art Student", "English Professor",
+        "Seminary Student", "High School Student", "High School Teacher", "4th Grade Teacher",
+        "Ph.D. Student",  "College Coach", "Special Ed Teacher", "Science Teacher",
+        "Special Education Teacher", "Physical Education Teacher", "Music Teacher",
+        "Track Coach", "Debate Professor", "P.E. Coach", "PhD Candidate",
+        "Elementary School Teacher", "College Admissions Director",
+        "Political Science Ph.D.", "Educational Project Manager",
+        "Admissions Counselor", "YMCA Basketball Coach"
+    ],
+
+    "Healthcare": [
+        "Biochemist", "Neurosurgeon", "Personal Nurse", "Dentist", "Nurse",
+        "Pharmaceutical Saleswoman",  "Mortician", "Nursing Practitioner",
+        "Medical Sales Representative", "Nursing Student",
+        "Pre-Med Student", "Doctor", "Medical Saleswoman", "Physics Teacher",
+        "Medical Student", "ER Doctor", "Pharmaceutical Representative",
+        "Anesthesiologist", "Plastic Surgeon", "Phlebotomist", "Sex Therapist",
+        "Nurse Practitioner", "Physical Therapist", "Urologist", "Physician",
+        "Medical Assistant", "Pharmacist", "Pediatric Nurse", "Clinical Psychologist",
+        "Heart Valve Specialist", "Surgical Podiatrist", "Critical Care Nurse",
+        "Surgeon", "Substance Abuse Counselor", "Therapist", "Veterinarian",
+        "Dietitian", "Dietician", "Drug Counselor", "Healthcare Consultant",
+        "Healthcare Worker", "Behavior Analyst", "Massage Therapist", "Medical Device Salesman",
+        "Medical Student", "Nursing Student", "Dental Student", "Pre-Med Student", "Research Coordinator"
+    ],
+
+    "Business & Finance": [
+        "Real Estate Developer", "Software Company President", "Internet Projects Manager",
+        "Advertising Executive", "Marketing Manager", "Account Manager",
+        "Real Estate Agent", "Office Manager", "Executive Recruiter",
+        "Land Broker", "Marketing Director", "Construction Company VP",
+        "Sales Executive", "Advertising Salesman", "Equity Trade Manager",
+        "Marketing Executive", "Sales Manager", "Bookkeeper", "Sales & Marketing Associate",
+        "Business Consultant", "Real Estate Broker", "Financial Salesman",
+        "Risk Consultant", "Management Consultant", "Loan Officer",
+        "Expert Witness Locator", "Internet Technology Director",
+        "Real Estate Manager", "Entrepreneur", "Corporate Consultant",
+        "Real Estate Executive", "Investment Banker",
+        "Event Planner", "Miami Marlins President",
+        "Accountant", "Media Consultant", "Yahoo Executive", "Corporate Executive",
+        "Quantitative Strategist", "Asset Manager", "Small Business Owner",
+        "Business Analyst", "Account Executive", "Publishing CEO",
+        "Sales Representative", "District Sales Manager", "Talent Manager",
+        "Communications Manager", "Project Manager", "Product Manager",
+        "Tech Investor", "Investment Analyst", "Estate Attorney",
+        "Marketing Strategist", "Athlete Marketing Manager",
+        "Strategy Consultant", "Finance Manager",
+        "Music Executive", "PR Consultant", "Marketing Professional",
+        "Sales Expert", "Recruiting Director", "International Brand Mentor",
+        "Administrative Assistant", "Office Assistant", "Document Manager",
+        "Insurance Saleswoman", "Administrative Officier", "Financial Consultant",
+        "Tax Accountant", "Social Media Marketer", "Social Media Manager", "Actuary",
+        "Business Student", "Economics Student", "Freelance Marketer", "Banker", "Program Coordinator"
+    ],
+
+    "Technology": [
+        "Software Developer", "Computer Projects Coordinator", "Computer Programmer",
+        "Web Producer", "Professional Gamer", "Technology Executive",
+        "Visual Effects Producer", "Computer Engineer", "Engineering Graduate",
+        "Nuclear Engineer", "Rocket Scientist", "Missile Engineer",
+        "Industrial Engineer", "Robotics Scientist", "Cyber Security Analyst",
+        "App Developer", "Data Scientist", "UX Designer", "Security Software Engineer",
+        "Security Specialist", "Software Salesman", "Software Engineer",
+        "Aerospace Tech", "IT Quality Analyst", "Data Analyst",
+        "E-Sports Commentator", "AI Research Assistant", "Tech Product Lead",
+        "Engineering Manager", "Techincal Writer", "Technology Executive", "IT Consultant",
+        "Cyber Security Saleswoman", "Tech Salesman", "Astronaut", "Computer Engineer",
+        "NASA Engineering Student", "Engineering Graduate"
+    ],
+
+    "Public Safety & Military": [
+        "Truck Driver", "Retired Navy SEAL", "Retired Firefighter", "Fire Lieutenant",
+        "Corrections Officer", "Army Intelligence Officer", "Retired Police Officer",
+        "Sheriff", "Firefighter", "Police Officer", "Navy Swim Instructor",
+        "FBI Agent", "Security Officer", "Drill Sergeant", "Police Sergeant",
+        "Ex-Navy Fighter Pilot", "Retired Fire Captain", "Former Federal Agent",
+        "Iraq War Veteran", "Retired NYPD Detective", "Retired LAPD Officer",
+        "U.S. Army Sergeant", "Fire Captain", "Fireman/EMT", "State Trooper",
+        "Army Veteran", "Former FBI Agent", "Marine", "S.W.A.T Officer",
+        "Air Force Veteran", "Probation Officer", "Lifeguard", "Chief Lifeguard"
+    ],
+
+    "Entertainment & Media": [
+        "Musician", "Singer/Songwriter", "Aspiring Actress", "Model",
+        "Swimsuit Model", "Vegas Showgirl", "Actress", "Former Model",
+        "Pin-up Model", "Former Pop Star",
+        "Professional Dancer", "Spoken Word Artist", "Stand-Up Comedian",
+        "Former Miss Delaware", "Former TV Teen Star", "Miss Kentucky Teen USA",
+        "Male Model", "YouTube Sensation", "Television Writer", "Olympian",
+        "Celebrity Assistant", "Filmmaker",
+        "Morning News Anchor", "Toymaker", "Olympic Medalist",
+        "Former NHL Player", "Returning Winner", "Creative Director",
+        "Designer", "Content Producer", "Singer", "Actor", "Artist",
+        "Podcast Host", "Radio Show Host", "Sports Reporter",
+        "Graphic Designer", "Stunt Performer", "Writer", "Jazz Musician",
+        "Heavy Metal Musician", "Digital Content Creator", "Fire Dancer", "Sports Radio Host",
+        "Freelance Writer", "Swimsuit Photographer"
+    ],
+
+    "Legal": [
+        "Attorney", "Deputy District Attorney", "Civil Rights Lawyer",
+        "Defense Attorney", "Investment Banker", "Trial Lawyer",
+        "Assistant District Attorney", "Public Defender", "Divorce Lawyer",
+        "Personal Injury Lawyer", "Civil Rights Attorney", "Law Clerk",
+        "Law Student/Former Military", "Judge", "Legal Secretary", "Lawyer",
+        "Corporate Lawyer", "Harvard Law Student", "Law Student", "Pre-Law Student"
+    ],
+
+    "Food & Hospitality": [
+        "Dairy Farmer", "Chef", "Goat Farmer",
+        "Fishing Boat Captain", "Restaurant Owner", "Restaurant Designer",
+        "Bartender", "Coffee Barista", "Fishmonger", "Chicken Farmer",
+        "Cattle Rancher", "Personal Chef", "Bar Manager", "Goat Rancher",
+        "Commericial Fisherman", "Sushi Chef", "Fast Food Franchisee",
+        "Coconut Vendor", "Ice Cream Entrepreneur", "Waiter", "Waitress",
+        "Ice Cream Scooper", "School Lunch Lady", "Barista", "Fisherman",
+        "Kitchen Staff", "Pizzeria Manager", "Hotel Doorman",
+        "Bellhop", "Produce Clerk", "Grocery Clerk"
+    ],
+
+    "Sports & Fitness": [
+        "Health Club Consultant", "Personal Trainer", "Basketball Coach",
+        "Professional Soccer Player", "Triathlon Coach", "Gym Teacher",
+        "Water Ski Instructor", "Former NFL Quarterback", "Professional Volleyball Player",
+        "Boxer", "Cheerleading Coach", "Professional Wrestler", "Surfing Instructor",
+        "Professional Poker Player", "Gymnastics Coach", "Professional Cyclist",
+        "Soccer Coach", "Swim Coach", "Professional Racecar Jackman",
+        "Lingerie Football Player", "Baseball/Dating Coach", "Track Coach",
+        "Racecar Driver", "Former NBA All-Star", "Ex-NFL Cheerleader",
+        "Horse Trainer", "Pilates Trainer", "Martial Arts Instructor",
+        "Former NBA Champion", "Bodybuilder", "Snowboard Instructor",
+        "NFL Player", "MMA Fighter", "Former NHL Player", "Gym Owner",
+        "Fitness Instructor", "Fitness Consultant", "PE Teacher",
+        "Yogi", "U.S. Paralympian", "Olympic Gold Medalist", "Former NFL Coach",
+        "EMT/Pro Cheerleader", "Roller Girl", "Yoga Instructor"
+    ],
+
+    "Service & Retail": [
+        "Auto Customizer", "Mail Carrier", "Telephone Technician",
+        "Flight Attendant", "Bowling Alley Owner", "Used Car Salesman",
+        "Homemaker", "Retail Saleswoman", "Electrician", "Troubled Teens Mentor", "Art Consultant",
+        "Scoutmaster", "Dog Trainer", "Mechanical Bull Operator", "Housing Case Manager",
+        "Equity Research Assistant", "Youth Mentor", "Highway Repair Worker", "Highway Construction Worker",
+        "Steelworker", "Hairdresser", "Nanny", "Retail Salesperson",
+        "Property Developer", "Art Teacher", "Pilot", "Nail Salon Manager",
+        "Fashion Director", "Makeup Artist", "Shoe Salesman",
+        "Copier Sales Executive", "Fashion Stylist", "Non-profit Fundraiser", "Architect",
+        "School Bus Driver", "Single Mother", "Customer Service Representative", "Aspiring Writer",
+        "Pageant Coach", "Golf Course Vendor", "Residental Builder", "Motivational Speaker",
+        "Wedding Videographer", "Bus Driver", "Real Estate Salesman", "Hairstylist", "Spa Saleswoman",
+        "Urban Planner", "Saleswoman", "T-shirt Designer", "Oil Company Owner", "Pest Control Company Owner",
+        "Club Promoter", "Timeshare Representative", "Bridal Shop Owner", "Tire Repairman", "Cosmetologist",
+        "BMX Bike Salesman", "Retail Buyer", "Jewelry Designer",  "Ex-Talent Agent Assistant", "Postal Worker",
+        "Barrel Racer", "General Contractor", "Oil Driller", "Contractor", "Gardener",
+        "Boat Mechanic", "Insurance Adjuster", "Vacation Club Saleswoman", "Missionary Recruiter",
+        "Homeless Shelter Manager", "Diversity Advocate", "Caretaker", "Construction Supervisor",
+        "Furniture Company Owner", "Maintenance Manager","Airline Agent", "Realtor", "YMCA Program Director ",
+        "Factory Worker", "Stay-At-Home Dad", "Beach Service Company Owner", "Warehouse Associate",
+        "Pet Cremator", "Elevator Salesman", "Insurance Agent",
+        "Charity Projects Manager", "Barbershop Owner", "Salon Owner",
+        "Slot Machine Salesman", "Parent Coach", "Maintenance Man", "Jewelry Salesman/Photographer",
+        "Truck Assembler", "Stay-At-Home Mom", "Flight School Owner", "Youth Pastor", "Limousine Driver",
+        "Jeweler", "Bounty Hunter", "Hearing Advocate"
+    ],
+
+    "Outdoors & Adventure": [
+        "River Rafting Guide", "Nature Guide", "Construction Worker",
+        "Crime Reporter",  "Dolphin Trainer", "Wilderness Guide",
+        "Hiking Guide", "Gravedigger",  "Wilderness Therapy Guide", "Marine Animal Trainer",
+        "Paddleboard Company Owner", "Surf Instructor", "Children's Adventure Guide",
+        "Water Treatment Technician", "Oil Tanker Crewman", "Motorcycle Repairwoman",
+        "Rancher", "Sheep Farmer", "Farmer", "Sailing Instructor", "Fishing Guide",
+        "Zookeeper", "Lumberjill"
+    ],
+
+    "Family Relations": [
+        "Laura B.'s Husband", "Caleb's Fiancé", "Tyson's Girlfriend",
+        "Gervase's Niece", "John's Wife", "Monica's Husband",
+        "Hayden's Girlfriend", "Candice's Husband", "Rupert's Wife",
+        "Vytas' Brother", "Aras' Brother", "Colton's Fiancé",
+        "Tina's Daughter", "Kat's Boyfriend", "Ciera's Mother",
+        "Laura M.'s Daughter", "Katie's Mother", "Marissa's Uncle",
+        "Brad's Wife", "Rachel's Boyfriend", "Natalie's Twin Sister",
+        "Jeremy's Wife", "Julie's Boyfriend", "Alec's Brother",
+        "Dale's Daughter", "Kelley's Father", "John's Girlfriend",
+        "Reed's Boyfriend", "Val's Husband", "Keith's Son",
+        "Josh's Boyfriend", "Drew's Brother", "Jaclyn's Boyfriend",
+        "Missy's Daughter", "Wes's Father", "Baylor's Mother",
+        "Jon's Girlfriend", "Nadiya's Twin Sister"
+    ]
+}
